@@ -18,7 +18,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 sudo apt-get update
 sudo apt-get install jenkins
 ````
-${\color{purple} \textbf{ACCESS JENKINS : pub_ip:8080}}$
+${\color{purple} \textbf{ACCESS JENKINS : pub-ip:8080}}$
 
 ${\color{green} \textbf{3. On NODE Install Java }}$
 ````
@@ -35,7 +35,7 @@ ssh-keygen
 ````
 ${\color{purple} \textbf{NOTE :}}$ Copy public key for NODE.
 
-${\color{green} \textbf{5. Paste that puplic key in NODE in authorized_keys file}}$
+${\color{green} \textbf{5. Paste that puplic key in NODE in authorized-keys file}}$
 ````
 vim .ssh/authorized_keys
 ````
